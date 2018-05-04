@@ -5,10 +5,10 @@
 
     <groupId>no.nav.opptjening</groupId>
     <artifactId>avro-schemas</artifactId>
-    <version>1</version>
+    <version>0</version>
     <packaging>jar</packaging>
 
-    <name>avro-schemas</name>
+    <name>tortuga-schema</name>
     <description>Avro Schemas for Tortuga</description>
 
     <properties>
