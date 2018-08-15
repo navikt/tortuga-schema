@@ -19,19 +19,19 @@
         "fields": [
           {
             "name": "personinntektLoenn",
-            "type": "long"
+            "type": ["long", "null"]
           },
           {
             "name": "personinntektFiskeFangstFamiliebarnehage",
-            "type": "long"
+            "type": ["long", "null"]
           },
           {
             "name": "personinntektNaering",
-            "type": "long"
+            "type": ["long", "null"]
           },
           {
             "name": "personinntektBarePensjonsdel",
-            "type": "long"
+            "type": ["long", "null"]
           }
         ]
       }
@@ -44,11 +44,11 @@
         "fields": [
           {
             "name": "svalbardLoennLoennstrekkordningen",
-            "type": "long"
+            "type": ["long", "null"]
           },
           {
             "name": "svalbardPersoninntektNaering",
-            "type": "long"
+            "type": ["long", "null"]
           }
         ]
       }
