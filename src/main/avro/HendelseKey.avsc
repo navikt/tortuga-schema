@@ -1,0 +1,17 @@
+{
+  "namespace": "no.nav.opptjening.schema.skatt.hendelsesliste",
+  "type": "record",
+  "name": "HendelseKey",
+  "doc": "https://skatteetaten.github.io/datasamarbeid-api-dokumentasjon/reference_feed",
+  "fields": [
+    {
+      "name": "identifikator",
+      "type": "string"
+    },
+    {
+      "name": "gjelderPeriode",
+      "type": "string"
+    }
+  ]
+}
+
