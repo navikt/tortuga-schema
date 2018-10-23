@@ -1,0 +1,17 @@
+{
+  "topics": [{
+    "topicName": "aapen-opptjening-pensjonsgivendeInntekt",
+    "numPartitions": 3,
+    "configEntries": {
+      "retention.ms": "-1"
+    },
+    "members": [{
+      "member": "srvtortuga-hoi",
+      "role": "PRODUCER"
+    },
+      {
+        "member": "srvtortuga-loot",
+        "role": "CONSUMER"
+      }]
+  }]
+}

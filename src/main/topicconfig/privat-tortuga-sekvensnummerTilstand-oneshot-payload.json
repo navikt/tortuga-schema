@@ -1,0 +1,18 @@
+{
+  "topics": [{
+    "topicName": "privat-tortuga-sekvensnummerTilstand",
+    "numPartitions": 1,
+    "configEntries": {
+      "retention.ms": "-1",
+      "cleanup.policy": "compact"
+    },
+    "members": [{
+      "member": "srvtortuga-hiv",
+      "role": "PRODUCER"
+    },
+      {
+        "member": "srvtortuga-hiv",
+        "role": "CONSUMER"
+      }]
+  }]
+}

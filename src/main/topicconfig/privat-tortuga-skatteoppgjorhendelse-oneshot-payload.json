@@ -1,0 +1,17 @@
+{
+  "topics": [{
+    "topicName": "privat-tortuga-skatteoppgjorhendelse",
+    "numPartitions": 3,
+    "configEntries": {
+      "retention.ms": "-1"
+    },
+    "members": [{
+      "member": "srvtortuga-hiv",
+      "role": "PRODUCER"
+    },
+      {
+        "member": "srvtortuga-hoi",
+        "role": "CONSUMER"
+      }]
+  }]
+}
