@@ -52,8 +52,9 @@
 
     <distributionManagement>
         <repository>
-            <id>iapp-releases</id>
-            <url>https://repo.adeo.no/repository/maven-releases</url>
+            <id>github</id>
+            <name>GitHub navikt Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/navikt/tortuga-schema</url>
             <uniqueVersion>false</uniqueVersion>
         </repository>
     </distributionManagement>
